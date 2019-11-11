@@ -32,7 +32,11 @@
             <div class="clearfix"> </div>
         </div>
         <div class="shop">
-            <a href="single.html">SHOP COLLECTION NOW</a>
+            <?php
+            $btn_text = get_field('slider_button_text', 'option');
+            $btn_link = get_field('slider_button_link', 'option');
+            ?>
+            <a href="<?php echo $btn_link; ?>"><?php echo $btn_text ?></a>
         </div>
     </div>
 </div>
@@ -55,7 +59,7 @@
             </div>
             <div class="col-md-4 online-order">
                 <p>Order online</p>
-                <h3>Tel:999 4567 8902</h3>
+                <h3><a href="tel:<?php the_field('phone','option'); ?>">Tel:<?php the_field('phone', 'option'); ?></a></h3>
             </div>
             <div class="clearfix"></div>
         </div>
