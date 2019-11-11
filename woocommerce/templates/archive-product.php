@@ -1,1 +1,0 @@
-<h1>Archive product</h1>

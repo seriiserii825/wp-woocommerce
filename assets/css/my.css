@@ -665,14 +665,14 @@ a.like_name {
 	z-index: 100;
 	margin-top:-2em;
 }
-.nbs-flexisel-nav-left {
-	left: 0px;
-	background: url(../images/arrows.png) no-repeat -8px -7px;
-}
-.nbs-flexisel-nav-right {
-	right: 0px;
-	background: url(../images/arrows.png) no-repeat -61px -7px;
-}
+/*.nbs-flexisel-nav-left {*/
+/*	left: 0px;*/
+/*	background: url(../images/arrows.png) no-repeat -8px -7px;*/
+/*}*/
+/*.nbs-flexisel-nav-right {*/
+/*	right: 0px;*/
+/*	background: url(../images/arrows.png) no-repeat -61px -7px;*/
+/*}*/
 .other-products {
     padding: 60px 0;
 }
