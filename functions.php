@@ -10,6 +10,7 @@
 require_once __DIR__.'/inc/bs-setup.php';
 require_once __DIR__.'/inc/bs-styles.php';
 require_once __DIR__.'/inc/bs-widgets.php';
+require_once __DIR__.'/inc/bs-post-type.php';
 
 if( function_exists('acf_add_options_page') ) {
 
@@ -20,19 +21,6 @@ if( function_exists('acf_add_options_page') ) {
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false
 	));
-
-	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Настройки шапки',
-		'menu_title'	=> 'Шапка',
-		'parent_slug'	=> 'theme-general-settings',
-	));
-
-	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Настройки подвала',
-		'menu_title'	=> 'Подвал',
-		'parent_slug'	=> 'theme-general-settings',
-	));
-
 }
 
 function bs_shop_content_width() {
